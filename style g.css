@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Spicy+Rice&display=swap');
+
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+container {
+    max-width: 1200 px;
+    margin 0 auto;
+
+}
+
+header{
+    background-color: rgb(253, 99, 202);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+        
+}
+
+menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: beige;
+    display: block;
+    font-weight: 600;
+
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: rgb(7, 152, 255);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-family: "Spicy Rice", serif;
+    text-align: center;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: black;
+    padding: 0 80px;
+    margin-bottom: 25px;
+
+}
+
+.Influencias h2 {
+    padding 100px 0;
+    background-color: rgb(255, 199, 45);
+    position: relative;
+    text-align: center;
+
+}
+ .Greta-content p {
+    text-align: center;
+
+ }
+ .container {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+ 
+.section {
+text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
